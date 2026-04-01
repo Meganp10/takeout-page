@@ -1,1 +1,224 @@
-<h1>Hello World Wide Web!</h1>
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+<title>Assignment 3</title>
+<meta charset="utf-8">
+<!--Made by <Megan Pilkey> on <March 19, 2026>-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Stack+Sans+Notch:wght@200..700&family=Stack+Sans+Text:wght@200..700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento&display=swap" rel="stylesheet"> 
+
+<style>
+  
+  html{
+    font-size: 20px;
+  }
+  
+  .container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #site-title{
+   font-family: "Playfair Display", serif;
+   background-color: #011608; 
+   color: #FFFFFE;
+   text-align: center;
+   margin: 0 auto;
+   padding-top: 10px;
+   font-size: 2em;
+  }
+  
+ #nav-bar {
+  background-color: #011608;
+}
+
+nav {
+  font-family: "Quattrocento", serif;
+  padding: 5px;
+}
+    
+  nav a{
+    text-decoration: none;
+    color: #FFFFFE;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  nav ul{
+    text-align: center;
+  }
+  
+  li{
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 1.2em;
+  }
+    a:hover{
+      text-decoration: underline;
+    }
+  
+.content {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: start;
+  row-gap: 10px; 
+}
+
+.content img {
+  width: 100%;
+  display: block;
+}
+  
+  .lh{
+    display: block;
+    padding-left: 40px;
+  }
+  
+  .page-title{
+    color: #011608;
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+    padding-left: 20px;
+    background-color: #FFFFFE;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  
+  h1{
+    font-family: "Playfair Display", serif;
+    font-size: 1.5em;
+    color: #FFFFFE;
+    background-color: #011608;
+    padding: 10px;
+   
+  }
+  
+  h2{
+    font-family: "Quattrocento", serif;
+    font-size: 1.3em;
+    color: #011608;
+    background-color: #FFFFFE;
+  
+  }
+  
+  h3{
+    font-family: "Quattrocento", serif;
+    font-size: 1.3em;
+    color: #FFFFFE;
+    background-color: #011608;
+   
+    text-align: center;
+  }
+  
+  p{
+    font-family: "Source Sans 3", serif;
+    font-size: 1em;
+    color: #011608;
+    padding: 10px;
+    line-height: 1.5;
+    text-align: center;
+  }
+ 
+   .staff-title{
+    color: #FFFFFE;
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+    text-align: center;
+    background-color: #E77F74;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  
+ .takeout-grid {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  justify-content: center;
+  background-color: pink;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+  
+  .takeout img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .footertext{
+    font-family: "Source Sans 3", serif;
+    font-size: 1em;
+    color: #FFFFFE;
+    text-align: left;
+    background-color: #E77F74;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .footertitle{
+    font-family: "Playfair Display", serif;
+    font-size: 2em;
+    color: #FFFFFE;
+    text-align: left;
+    background-color: #E77F74;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+  
+  </style>
+  
+  </head>
+  
+  <body>
+  
+    <div class="container">
+      
+   <h1 id="site-title"> The Garden Stand</h1>  
+ 
+  <div id="nav-bar">
+   <nav>
+    <ul>
+    <li><a href="/">Contact</a></li>
+    <li><a href="/">Shop</a></li>
+    <li><a href="/">Home</a></li>
+    <li><a href="/">About</a></li>  
+    <li><a href="/">Menu</a></li> 
+    <li><a href="/">Location</a></li> 
+    <li><a href="/">Take-Out</a></li> 
+    <li><a href="/">Services</a></li> 
+    </ul>
+  </nav>
+</div>  
+ 
+<div class="staff-title">Order Take-Out</div> 
+      
+<div class="takeout-grid">
+
+  <h2>Soup & Sandwich</h2>
+  <img src="squash.png" alt="Orange squash soup in a white bowl">
+ 
+ <h2>Avalible</h2>
+ <p>Enjoy a rotating biweekly chef-crafted sandwich paired with a fresh, house-made soup.</p>
+ <p>Pre-ordering is strongly recommended to avoid disappointment as quantities are limited.</p>
+ <p>Monday - Saturday 11:30 - 1:00PM</p>
+
+  </div>
+
+
+<footer>
+<div class="footertitle">Explore Our Catering Offerings</div>  
+<div class="footertext">Custom catering menus are designed based on your group size, menu preferences, and event style.</div>  
+</footer>
+      
+</div>
+ 
+ 
+  </body>
+</html>
