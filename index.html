@@ -91,20 +91,21 @@ nav {
   }
   
   h1{
-    font-family: "Playfair Display", serif;
-    font-size: 1.5em;
+    font-family: "Quattrocento", serif;
+    font-size: 2em;
     color: #FFFFFE;
-    background-color: #011608;
-    padding: 10px;
-   
+    background-color: #E77F74;
+    padding-left: 20px;
+    text-align: left;
   }
   
   h2{
     font-family: "Quattrocento", serif;
     font-size: 1.3em;
-    color: #011608;
-    background-color: #FFFFFE;
-  
+    color: #FFFFFE;
+    background-color: #E77F74;
+    text-align: left;
+    padding-left: 20px;
   }
   
   h3{
@@ -112,52 +113,52 @@ nav {
     font-size: 1.3em;
     color: #FFFFFE;
     background-color: #011608;
-   
-    text-align: center;
+    text-align: left;
+    padding: 10px;
   }
   
   p{
     font-family: "Source Sans 3", serif;
     font-size: 1em;
-    color: #011608;
+    color: #FFFFFE;
     padding: 10px;
     line-height: 1.5;
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
   }
  
-   .staff-title{
-    color: #FFFFFE;
+   .takeout-title{
+    color: #011608;
     font-family: "Playfair Display", serif;
     font-size: 2em;
     text-align: center;
-    background-color: #E77F74;
+    background-color: #FFFFFE;
     padding-top: 10px;
     padding-bottom: 15px;
   }
   
- .takeout-grid {
+ .takeout {
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-columns: 50% 50%;
   justify-content: center;
-  background-color: pink;
+  background-color: #E77F74;
   margin: 0;
   text-align: center;
-  padding: 10px;
 }
   
   .takeout img{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    padding: 10px;
+  width: 100%;
+  height: 455px;
+  object-fit: cover;  
+  display: block;
   }
   
   .footertext{
     font-family: "Source Sans 3", serif;
     font-size: 1em;
-    color: #FFFFFE;
+    color: #011608;
     text-align: left;
-    background-color: #E77F74;
+    background-color: #FFFFFE;
     padding-left: 10px;
     padding-bottom: 10px;
   }
@@ -165,9 +166,9 @@ nav {
   .footertitle{
     font-family: "Playfair Display", serif;
     font-size: 2em;
-    color: #FFFFFE;
+    color: #011608;
     text-align: left;
-    background-color: #E77F74;
+    background-color: #FFFFFE;
     padding-left: 10px;
     padding-bottom: 10px;
   }
@@ -197,20 +198,23 @@ nav {
   </nav>
 </div>  
  
-<div class="staff-title">Order Take-Out</div> 
+<div class="takeout-title">Order Take-Out</div> 
       
-<div class="takeout-grid">
+<div class="takeout">
 
-  <h2>Soup & Sandwich</h2>
-  <img src="squash.png" alt="Orange squash soup in a white bowl">
- 
- <h2>Avalible</h2>
- <p>Enjoy a rotating biweekly chef-crafted sandwich paired with a fresh, house-made soup.</p>
- <p>Pre-ordering is strongly recommended to avoid disappointment as quantities are limited.</p>
- <p>Monday - Saturday 11:30 - 1:00PM</p>
-
+  <div class="takeout-text">
+    <h1>Soup &amp Sandwich</h1>
+    <h2>Available</h2>
+    <h2>Monday - Saturday 11:30 - 1:00PM</h2>
+    <p>Enjoy a rotating biweekly chef-crafted sandwich paired with a fresh, house-made soup.</p>
+    <p>Pre-ordering is strongly recommended to avoid disappointment as quantities are limited.</p>
+    <h3>Pre-order here!</h3>
+    
   </div>
 
+  <img src="sandwich.png" alt="BLT sandwich with tomato soup">
+
+</div>
 
 <footer>
 <div class="footertitle">Explore Our Catering Offerings</div>  
